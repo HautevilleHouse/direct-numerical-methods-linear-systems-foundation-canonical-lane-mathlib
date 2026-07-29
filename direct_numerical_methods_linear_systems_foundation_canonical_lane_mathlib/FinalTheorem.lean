@@ -1,0 +1,9 @@
+import direct_numerical_methods_linear_systems_foundation_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace direct_numerical_methods_linear_systems_foundation_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end direct_numerical_methods_linear_systems_foundation_canonical_lane_mathlib
+end HautevilleHouse
